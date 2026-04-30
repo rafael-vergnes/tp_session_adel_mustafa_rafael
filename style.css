@@ -1,0 +1,23 @@
+body {
+    border : 1px solid black;
+    background: #bf7a13;
+background: linear-gradient(180deg,rgba(191, 122, 19, 1) 0%, rgba(2, 0, 36, 1) 30%, rgba(9, 9, 121, 1) 70%, rgba(0, 212, 255, 1) 100%);
+color: whitesmoke;
+}
+
+
+
+aside img {
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+main section {
+    background-color: white;
+    border: 1px solid black;
+    max-width : 70vw;
+    margin: auto;
+    margin-bottom: 20px;
+    color : black;
+}
