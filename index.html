@@ -4,80 +4,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     
     <header>
         <h1>Full Stack Squad</h1>
+        <p>DEV31 ERN 26-01</p>
         <nav>
             <ul>
-                <li>Full Stack Squad c'est :</li>
-                <li>Mais aussi...</li>
-                <li>Tu peux nous retrouver ici :</li>
-                <li>Est-ce que tu nous connais vraiment ?</li>
+                <li><a href="#organigramme">Full Stack Squad c'est</a></li>
+                <li><a href="#loisirs">Mais aussi...</a></li>
+                <li><a href="#lieux">Tu peux nous retrouver ici</a></li>
+                <li><a href="#quizz">Est-ce que tu nous connais vraiment ?</a></li>
             </ul>
         </nav>
     </header>
     
     <aside>
-        <p>Description</p>
-        <img src="./images/Full_Stack_Squad.png" alt="">
+        <p>Nous sommes une promotion de 14 individus pour devenir Développeur(euse) Web et Web Mobile</p>
+        <img src="./images/gif_fusee.gif" alt="">
         <p>3.. 2.. 1.. Et c'est codé !</p>
     </aside>
 
     <main>
 
-        <section class = "organigramme">
+        <section class = "organigramme" id ="organigramme">
             <h2>Full Stack Squad c'est :</h2>
-            <img src="" alt="">
-            <p>A</p>
-            <p>B</p>
-            <p>C</p>
-            <p>D</p>
-            <p>E</p>
-            <p>F</p>
-            <p>G</p>
-            <p>H</p>
-            <p>I</p>
-            <p>J</p>
-            <p>K</p>
-            <p>L</p>
-            <p>M</p>
-            <p>N</p>
-        </section>
 
-        <section class = "loisirs">
-            <h2>Mais aussi...</h2>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </section>
+            <!-- <img src="/images/Full_Stack_Squad.png" alt="Organigramme de la classe"> -->
 
-        <section class = "lieux">
-            <h2>Tu peux nous retrouver ici :</h2>
-            <div>
-                <h3>Reynerie</h3>
-                <img src="images/Ramonville.PNG" alt="site reynerie">
-                <p>Espaces Numériques de la Reynerie - 12 Av. Winston Churchill, 31100 Toulouse</p>
+            <div class = "org-grid">
+                <img src="./images/Full_Stack_Squad.png" alt="">
+                <div id = "juliette" class = "org-circle">
+                    <p>Juliette</p>
+                </div>
+                <div id ="francheska" class = "org-circle">
+                    <p>Francheska</p>
+                </div>
+                <div id = "rafael" class = "org-circle">
+                    <p>Rafaël</p>
+                </div>
+                <div id = "mustafa" class = "org-circle">
+                    <p>Mustafa</p>
+                </div>
+                <div id="adel" class = "org-circle">
+                    <p>Adel</p>
+                </div>
+                <div  id = "coline" class = "org-circle">
+                    <p>Coline</p>
+                </div>
+                <div id = "steven" class = "org-circle">
+                    <p>Steven</p>
+                </div>
+                <div id="nathan" class = "org-circle">
+                    <p>Nathan</p>
+                </div>
+                <div id= "lucas" class = "org-circle">
+                    <p>Lucas</p>
+                </div>
+                <div id= "aaron" class = "org-circle">
+                    <p>Aaron</p>
+                </div>
+                <div id= "sullyvan" class = "org-circle">
+                    <p>Sullyvan</p>
+                </div>
+                <div id= "stanley" class = "org-circle">
+                    <p>Stanley</p>
+                </div>
+                <div id= "thiago" class = "org-circle">
+                    <p>Thiago</p>
+                </div>
+                <div id= "camille" class = "org-circle">
+                    <p>Camille</p>
+                </div>
             </div>
+        </section>
 
-            <div>
-                <h3>Ramonville</h3>
-                <img src="images/Ramonville.PNG" alt="site ramonville">
-                <p>ADRAR Formation - Pôle Numérique - 11 Av. de l'Europe, 31520 Ramonville-Saint-Agne</p>
+        <section class = "loisirs" id="loisirs">
+            <h2>Mais aussi...</h2>
+            <div id = "chess" class = "loisirs-cat">
+                <p>Des échecs</p>
+            </div>
+            <div id = "calisthenics" class = "loisirs-cat">
+                <p>De la calisthénie</p>
+            </div>
+            <div id = "basket" class = "loisirs-cat">
+                <p>Du basket</p>
+            </div>
+            <div id = "jdr" class = "loisirs-cat">
+                <p>Du Jeu de Rôle papier</p>
+            </div>
+            <div id = "music" class = "loisirs-cat">
+                <p>De la musique</p>
+            </div>
+            <div id = "books" class = "loisirs-cat">
+                <p>De la lecture</p>
+            </div>
+        </section>
+
+        <section class = "lieux" id="lieux">
+            <h2>Tu peux nous retrouver ici :</h2>
+            <div id = "maps">
+
+                <div>
+                    <h3>Reynerie</h3>
+                    <img src="images/Reynerie.PNG" alt="site reynerie">
+                    <p>Espaces Numériques de la Reynerie - 12 Av. Winston Churchill, 31100 Toulouse</p>
+                </div>
+                
+                <div>
+                    <h3>Ramonville</h3>
+                    <img src="images/Ramonville.PNG" alt="site ramonville">
+                    <p>ADRAR Formation - Pôle Numérique - 11 Av. de l'Europe, 31520 Ramonville-Saint-Agne</p>
+                </div>
             </div>
         
         </section>
 
-        <section class = "quizz">
+        <section class = "quizz" id="quizz">
             <h2>Est-ce que tu nous connais vraiment ?</h2>
             <form>
                 <legend>Le blason montre une fusée qui décolle. Que symbolise-t-elle ?</legend>
@@ -112,7 +157,7 @@
     </main>
 
     <footer>
-        <p>Copyright 2026</p>
+        <p>@Copyright - Réalisé par Mustafa, Rafaël, Adel - Session 2026</p>
     </footer>
 </body>
 </html>
